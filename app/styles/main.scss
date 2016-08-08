@@ -22,7 +22,7 @@ $line-height-base: 1.618034;
   text-transform: uppercase;
   margin-bottom: 1.618034em;
 
-  a.btn-warning:hover {
+  a.btn-warning:hover, a.btn-warning:focus {
     background: lighten($btn-warning-bg, 5%);
     color: black;
   }
