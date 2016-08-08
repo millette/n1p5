@@ -1,0 +1,67 @@
+$icon-font-path: "../fonts/";
+
+$font-size-base: 16px;
+$line-height-base: 1.618034;
+
+// pick one lumen  yeti
+@import "bower_components/bootswatch/yeti/_variables.scss";
+/*
+@import "bower_components/bootswatch/cerulean/_variables.scss";
+@import "bower_components/bootswatch/cosmo/_variables.scss";
+@import "bower_components/bootswatch/cyborg/_variables.scss";
+@import "bower_components/bootswatch/darkly/_variables.scss";
+@import "bower_components/bootswatch/flatly/_variables.scss";
+@import "bower_components/bootswatch/journal/_variables.scss";
+@import "bower_components/bootswatch/lumen/_variables.scss";
+@import "bower_components/bootswatch/paper/_variables.scss";
+@import "bower_components/bootswatch/readable/_variables.scss";
+@import "bower_components/bootswatch/sandstone/_variables.scss";
+@import "bower_components/bootswatch/simplex/_variables.scss";
+@import "bower_components/bootswatch/slate/_variables.scss";
+@import "bower_components/bootswatch/spacelab/_variables.scss";
+@import "bower_components/bootswatch/superhero/_variables.scss";
+@import "bower_components/bootswatch/united/_variables.scss";
+@import "bower_components/bootswatch/yeti/_variables.scss";
+*/
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+// pick one
+@import "bower_components/bootswatch/yeti/_bootswatch.scss";
+/*
+@import "bower_components/bootswatch/cerulean/_bootswatch.scss";
+@import "bower_components/bootswatch/cosmo/_bootswatch.scss";
+@import "bower_components/bootswatch/cyborg/_bootswatch.scss";
+@import "bower_components/bootswatch/darkly/_bootswatch.scss";
+@import "bower_components/bootswatch/flatly/_bootswatch.scss";
+@import "bower_components/bootswatch/journal/_bootswatch.scss";
+@import "bower_components/bootswatch/lumen/_bootswatch.scss";
+@import "bower_components/bootswatch/paper/_bootswatch.scss";
+@import "bower_components/bootswatch/readable/_bootswatch.scss";
+@import "bower_components/bootswatch/sandstone/_bootswatch.scss";
+@import "bower_components/bootswatch/simplex/_bootswatch.scss";
+@import "bower_components/bootswatch/slate/_bootswatch.scss";
+@import "bower_components/bootswatch/spacelab/_bootswatch.scss";
+@import "bower_components/bootswatch/superhero/_bootswatch.scss";
+@import "bower_components/bootswatch/united/_bootswatch.scss";
+@import "bower_components/bootswatch/yeti/_bootswatch.scss";
+*/
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.main-menu {
+  text-transform: uppercase;
+  margin-bottom: 1.618034em;
+
+  a.btn-warning:hover {
+    background: lighten($btn-warning-bg, 5%);
+    color: black;
+  }
+}
